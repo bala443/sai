@@ -1,0 +1,6 @@
+We noticed that implicit conversions are dangerous as one may encounter unexpected result. 
+Similarly, one has to be careful in explicit conversions as well. For example,
+
+Converting a floating point value to integer would result in loss of decimal point values.
+
+A larger data type if converted to smaller data type will result in loss of data as the number will be truncated.
